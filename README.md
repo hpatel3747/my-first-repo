@@ -10,7 +10,7 @@ This is test change on this file.
 6. Install intellij IDEA community edition editor (visual studio is fine too)
 7. Edit readme.md file and commit changes
 8. Use token to push instead of github login
-9. verify you are able to push changes
+9. Verify you are able to push changes
 10. Register a domain name: hptldevops.online on hostinger.com website
 11. Create a hosted zone on aws route 53 for "htpldevops.online"
 12. take four NS records from aws route 53 for "hptldevops.online" and add in hostinger DNS records
