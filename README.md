@@ -4,10 +4,10 @@ This is test change on this file.
 
 1. Register on github
 2. Create a repo named my-first-repo on github
-3. Install gitbash on your desktop
-4. Create a folder github-repos on local disk
+3. Install gitbash on your desktop (search for gutbash on google and download)
+4. Create a folder github-repos on local disk (c:\user\github-repos)
 5. Clone github-repos to github\my-first-repo
-6. Install intellij IDEA community edition editor (visual studio is fine too)
+6. Install intellij IDEA community edition editor (visual studio is fine too) (search for intellij IDEA on google)
 7. Edit readme.md file and commit changes
 8. Use token to push instead of github login
 9. Verify you are able to push changes
