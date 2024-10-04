@@ -15,3 +15,4 @@ This is test change on this file.
 11. Create a hosted zone on aws route 53 for "htpldevops.online"
 12. take four NS records from aws route 53 for "hptldevops.online" and add in hostinger DNS records
 13. wait for 24 hours to propagate DNS information
+14. 
