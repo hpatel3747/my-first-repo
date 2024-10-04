@@ -13,6 +13,6 @@ This is test change on this file.
 9. Verify you are able to push changes
 10. Register a domain name: hptldevops.online on hostinger.com website
 11. Create a hosted zone on aws route 53 for "htpldevops.online"
-12. take four NS records from aws route 53 for "hptldevops.online" and add in hostinger DNS records
-13. wait for 24 hours to propagate DNS information
+12. Take four NS records from aws route 53 for "hptldevops.online" and add in hostinger DNS records
+13. Wait for 24 hours to propagate DNS information
 14. 
