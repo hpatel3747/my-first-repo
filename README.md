@@ -13,7 +13,7 @@
 12. Take four NS records from aws route 53 for "hptldevops.online" and add in hostinger DNS records
 13. Wait for 24 hours to propagate DNS information
 
-# Create shell script to deploy code
+## Create shell script and run on the server
 1. Create subfolder roboshop in /my-first-repo/
 2. Create file frontend.sh (copy cmds from the project document)
 3. create frontend server on AWS
