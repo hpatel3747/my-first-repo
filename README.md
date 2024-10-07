@@ -18,3 +18,6 @@
 2. Create file frontend.sh (copy cmds from the project document)
 3. create frontend server on AWS
 4. Clone repo and run the shell script on the server
+```http
+git clone https://github.com/hpatel3747/my-first-repo.git
+```
