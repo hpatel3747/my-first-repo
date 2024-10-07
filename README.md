@@ -16,6 +16,20 @@
 ## Create shell script and run on the server
 1. Create subfolder roboshop in /my-first-repo/
 2. Create file frontend.sh (copy cmds from the project document)
+this is how frontend.sh looks like
+
+```bash
+dnf module disable nginx -y
+dnf module enable nginx:1.24 -y
+dnf install nginx -y
+systemctl enable nginx
+systemctl start nginx
+rm -rf /usr/share/nginx/html/*
+curl -o /tmp/frontend.zip https://roboshop-artifacts.s3.amazonaws.com/frontend-v3.zip
+cd /usr/share/nginx/html
+unzip /tmp/frontend.zip
+systemctl restart nginx
+```
 3. create frontend server on AWS
 4. Clone repo and run the shell script on the server
 
