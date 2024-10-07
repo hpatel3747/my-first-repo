@@ -1,7 +1,7 @@
 # my-first-repo
 
 This is test change on this file.
-
+## Getting started on DevOps 
 1. Register on github
 2. Create a repo named my-first-repo on github
 3. Install gitbash on your desktop (search for gitbash on google and download)
@@ -15,4 +15,4 @@ This is test change on this file.
 11. Create a hosted zone on aws route 53 for "htpldevops.online"
 12. Take four NS records from aws route 53 for "hptldevops.online" and add in hostinger DNS records
 13. Wait for 24 hours to propagate DNS information
-14. 
+ 
