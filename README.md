@@ -1,6 +1,3 @@
-# my-first-repo
-
-This is test change on this file.
 # Getting started on DevOps 
 1. Register on github
 2. Create a repo named my-first-repo on github
@@ -16,5 +13,8 @@ This is test change on this file.
 12. Take four NS records from aws route 53 for "hptldevops.online" and add in hostinger DNS records
 13. Wait for 24 hours to propagate DNS information
 
-##
- 
+# Create shell script to deploy code
+1. Create subfolder roboshop in /my-first-repo/
+2. Create file frontend.sh (copy cmds from the project document)
+3. create frontend server on AWS
+4. Clone repo and run the shell script on the server
