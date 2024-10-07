@@ -33,7 +33,7 @@ systemctl restart nginx
 3. create frontend server on AWS
 4. Clone repo and run the shell script on the server
 
-```http
+```bash
 git clone https://github.com/hpatel3747/my-first-repo.git
 sudo bash frontend.sh
 ```
