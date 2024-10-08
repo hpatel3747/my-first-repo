@@ -8,7 +8,7 @@ cd /app
 unzip /tmp/catalogue.zip
 cd /app
 npm install
-cp catalogue.service /etc/systemd/system/cataaaaaalogue.service
+cp catalogue.service /etc/systemd/system/catalogue.service
 cp mongodb.repo /etc/yum.repos.d/mongodb.repo
 
 dnf install mongodb-mongosh -y
