@@ -1,0 +1,15 @@
+#setup new payment service in systemd
+# edit /etc/systemd/system/dispatch.service
+
+[Unit]
+Description = Dispatch Service
+[Service]
+User=roboshop
+Environment=AMQP_HOST=RABBITMQ-dev.hptldevops.online
+Environment=AMQP_USER=roboshop
+Environment=AMQP_PASS=roboshop123
+ExecStart=/app/dispatch
+SyslogIdentifier=dispatch
+
+[Install]
+WantedBy=multi-user.target
