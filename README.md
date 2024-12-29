@@ -37,4 +37,18 @@ systemctl restart nginx
 git clone https://github.com/hpatel3747/my-first-repo.git
 sudo bash frontend.sh
 ```
+<details open>
 
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
