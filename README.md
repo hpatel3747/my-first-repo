@@ -37,7 +37,7 @@ systemctl restart nginx
 git clone https://github.com/hpatel3747/my-first-repo.git
 sudo bash frontend.sh
 ```
-<details open>
+<details>
 
 <summary>Tips for collapsed sections</summary>
 
